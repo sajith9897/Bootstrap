@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Course Progress Dashboard</title>
+</head>
+<body>
+    <div class="container my-4"> 
+
+        <div class="card p-4 shadow mx-auto">
+
+            <h1 class="display-4 text-center mb-4">Course Progress Dashboard</h1>
+            <hr>
+            <ul class = "breadcrumb">
+                <li class = "breadcrumb-item"><a href = "#">Home</a></li>
+                <li class = "breadcrumb-item"><a href="#">Course</a></li>
+                <li class = "breadcrumb-item active" aria-current = "page">Web-Development</li>
+            </ul>
+
+            <div class="text-center mt-5">
+                <h2 class="mb-3">Web Development Course <sup><span class="badge badge-pill badge-warning badge" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: 100; font-size: small;">New</span></sup></h2>
+
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:100%">HTML - 100% complete</div>
+                </div>
+
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%;">CSS - 75% complete </div>
+                </div>
+
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:50%;">JavaScript - 50% complete</div>
+                </div>
+
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:25%;">Bootstrap - 25% complete</div>
+                </div>
+                
+            </div>
+
+            <div class="btn-group mt-5">
+                <button type = "button" class = "btn btn-outline-success mx-4">Start</button>
+                <button type = "button" class = "btn btn-outline-warning mx-4">Pause</button>
+                <button type = "button" class = "btn btn-outline-dark mx-4">Reset</button>
+            </div>
+
+            <div>
+                <ul class="pagination justify-content-center mt-5">
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+                </ul>
+            </div>
+
+       </div> 
+    </div>
+</body>
+</html>
